@@ -164,7 +164,7 @@ path = "/roms/snes"
 
 [[context_menu]]
 name = "n64"
-cmd = "performance on; mupen64 {path}; performance off"
+cmd = "performance on; /usr/bin/mupen64plus {path}; performance off"
 path = "/roms/n64"
 
 [[context_menu]]
@@ -189,12 +189,12 @@ path = "/roms/sgb"
 
 [[context_menu]]
 name = "psx"
-cmd = "performance on; retroarch32 -L ~/.config/retroarch/cores/pcsx_rearmed_libretro.so {path}; performance off"
+cmd = "performance on; retroarch32 -L ~/.config/retroarch32/cores/pcsx_rearmed_libretro.so {path}; performance off"
 path = "/roms/psx"
 
 [[context_menu]]
 name = "nds"
-cmd = "performance on; drastic {path}; performance off"
+cmd = "performance on; cd ~/drastic/; ./drastic {path}; performance off"
 path = "/roms/nds"
 
 [[context_menu]]
